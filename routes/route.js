@@ -9,17 +9,17 @@ router.post("/Books",Books)
 
 
 // GET /books: Retrieve all books
-router.get ("/Books" , getAllPosts)
+router.get ("/books" , getAllPosts)
 
-router.get('/Books/:id', findPostById);
+router.get('/books/:id', findPostById);
 
 
 // Update a specific post by ID
-router.put('/Books/:id', updatePostById);
+router.put('/books/:id', updatePostById);
 
 
 // Delete a specific post by ID
-router.delete('/Books/:id', deletePostById);
+router.delete('/books/:id', deletePostById);
 
 
 
