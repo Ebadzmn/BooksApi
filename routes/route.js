@@ -5,7 +5,7 @@ const router = express.Router()
 const {Books, getAllPosts, findPostById, updatePostById , deletePostById} = require ("../controller/one");
 
 
-router.post("/Books",Books)
+router.post("/books",Books)
 
 
 // GET /books: Retrieve all books
